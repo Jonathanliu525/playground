@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,15 +8,13 @@ import {
   useParams,
 } from 'react-router-dom';
 
-import ReactHooks from './courts/ReactHooks';
-
 export default function App() {
   return (
     <Router>
       <div>
         <ul>
           <li>
-            <Link to="/ReactHooks">ReactHooks</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/about">About</Link>
@@ -28,9 +25,6 @@ export default function App() {
         </ul>
 
         <Switch>
-          <Route path="/ReactHooks">
-            <ReactHooks />
-          </Route>
           <Route path="/about">
             <About />
           </Route>
