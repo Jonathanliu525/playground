@@ -1,0 +1,16 @@
+{
+  "name": "generator-jonsample",
+  "version": "1.0.0",
+  "description": "This is a customised Yeoman generator",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "author": "Jon",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^5.1.0"
+  }
+}
